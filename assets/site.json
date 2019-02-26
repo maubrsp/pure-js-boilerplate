@@ -1,0 +1,32 @@
+{
+    "id":"clubedabolsa.com.br",
+    "author":"maubrsp",
+    "header":{
+        "keywords":"clubedabolsa.com.br, Clube da bolsa",
+        "title": "Clube da bolsa",
+        "description": "Clube da bolsa",
+        "author": "clubedabolsa.com.br"
+    },
+    "configs":{
+        "localport": "8080",
+        "url":"http://localhost",
+        "libs_url":"http://localhost",
+        "images_url":"http://localhost:8080/assets/images/original",
+        "local_url":"http://localhost",
+        "local_libs_url":"http://localhost",
+        "local_images_url":"http://localhost:[port]/assets/images/original",
+        "js": "./src/libs/pages",
+        "html":"src/doom"
+    },
+    "pages":[
+        {
+            "id": "index"
+        },
+        {
+            "id": "faq"
+        },
+        {
+            "id": "pacotes"
+        }
+    ]
+}

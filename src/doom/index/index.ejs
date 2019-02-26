@@ -1,0 +1,50 @@
+<% var header = require("inline-html-withimg-loader!./../header") %> <% var
+embed = require("inline-html-withimg-loader!./../embed") %> <% var prerender =
+require("inline-html-withimg-loader!./../prerender") %> <% var production =
+htmlWebpackPlugin.options.production %> <% var currentHash =
+htmlWebpackPlugin.options.currentHash %> <% var url =
+htmlWebpackPlugin.options.url %> <% var libs_url =
+htmlWebpackPlugin.options.libs_url %> <% var images_url =
+htmlWebpackPlugin.options.images_url %> <% var pageData =
+htmlWebpackPlugin.options.pageData %>
+
+<!DOCTYPE html>
+<html lang="en">
+  <%= header({ patch: images_url, data: pageData.header}) %> <% if(production
+  === false){%> <%= '<script
+    type="text/javascript"
+    src="' + libs_url +'/common/common.' + currentHash +'.js"
+  ></script
+  >' %> <% }%>
+  <style type="text/css">
+    html {
+      background-color: white;
+    }
+    .img {
+      position: relative;
+      width: 100%;
+      margin-top: 35vh;
+      text-align: center;
+    }
+    .img img {
+    }
+  </style>
+
+  <body>
+    <%= prerender( { patch: images_url, data: pageData.prerender }) %>
+
+    <main>
+      <%= destaque({ patch: images_url, data:
+      pageData.main.components.destaques}) %> <%= sobre({ patch: images_url,
+      data: pageData.main.components.sobre}) %> <%= comoFunciona({ patch:
+      images_url, data: pageData.main.components.comoFunciona}) %> <%=
+      ultimosSorteios({ patch: images_url, data:
+      pageData.main.components.ultimosSorteios}) %> <%= inscrevase({ patch:
+      images_url, data: pageData.main.components.inscreva}) %> <%= galeria({
+      patch: images_url, data: pageData.main.components.galeria}) %>
+    </main>
+
+    <%= embed( { fileName: htmlWebpackPlugin.options.chunks , production:
+    production, hash: currentHash , libs_url: libs_url } ) %>
+  </body>
+</html>

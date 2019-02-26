@@ -1,0 +1,17 @@
+
+    <% var params = templateParams %>
+    <% var header = templateParams.header %>
+    <% var tests = templateParams.objects %>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="asdfsaf asd " />
+    <meta name="description" content="test" />
+    <meta http-equiv="Cache-Control" content="no-transform " /> 
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title><%- header.title %></title>
+
+
+    <% for (var i = 0; i < tests.length; i++) { %>
+        <meta name= <%= '"'+tests[i].title + '"' %>' >
+
+        <% } %>
+    

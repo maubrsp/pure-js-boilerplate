@@ -1,0 +1,10 @@
+<% var logo = require("inline-html-withimg-loader!./ui/image")  %>
+<% 
+var params = templateParams
+var patch = params.patch
+var image = params.data.image
+%>
+
+<%= logo( { patch: patch, image: image } ) %>
+
+

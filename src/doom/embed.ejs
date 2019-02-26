@@ -1,0 +1,33 @@
+<% 
+    var params = templateParams
+    var fname = params.fileName
+    var fhash = params.hash
+    var flibs_url = params.libs_url
+    var fproduction = params.production
+%>
+
+<script type="text/javascript">  
+        function loadScript() {
+            let deps = <%= "'" + fname + "'" %>
+            let hash = <%= "'" + fhash + "'" %>
+            let libs_url = <%= "'" + flibs_url + "'" %>
+            let production = <%= "'" + fproduction + "'" %>
+
+            deps = deps.split(',')
+
+            for (var i = 0; i < deps.length; i++) {
+                if(deps[i] !== "common"){
+                    var script = document.createElement('script');
+                    script.type = 'text/javascript';
+                    if(window.clientWidth < 850 ){
+                        script.src = libs_url + deps[i]+'/'+deps[i]+"." + hash + ".mobile.js"
+                    }else{
+                        script.src = libs_url + deps[i]+'/'+deps[i]+"." + hash + ".js"
+                    }
+                    document.body.appendChild(script);
+                }
+            }
+        }
+        window.onload = loadScript;
+</script>
+    

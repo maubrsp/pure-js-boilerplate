@@ -1,0 +1,255 @@
+{
+    "header":{
+        "keywords":"clubedabolsa.com.br, Clube da bolsa",
+        "title": "Clube da bolsa",
+        "description": "Clube da bolsa",
+        "author": "clubedabolsa.com.br"
+    },
+    "prerender":{
+        "image":{
+            "src": "favicon.png,favicon.png 320w,favicon.png 480w,favicon.png 800w,favicon.png 1200w",
+            "alt":"logo clube da bolsa"
+        }
+    },
+    "nav":{
+        "image":{
+            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+            "alt":"logo clube da bolsa"
+        },
+        "buttons":[
+            { "href": "#Sobre", "type": "text", "content": "Sobre" },
+            { "href": "#ComoFunciona", "type": "text", "content": "Como Funciona" },
+            { "href": "#UltimosSorteios", "type": "text", "content": "Sobre" },
+            { "href": "#Inscreva-se", "type": "text", "content": "Inscreva-se" },
+            { "href": "#Galeria", "type": "text", "content": "Galeria" },
+            { "href": "https://google.com.br", "type": "text", "content": "Faq" },
+            { "href": "", "type": "space", "content": "" },
+            { "href": "https://google.com.br", "type": "icon", "content": "fa fa-facebook" },
+            { "href": "https://google.com.br", "type": "icon", "content": "fa fa-instagram" },
+            { "href": "https://google.com.br", "type": "icon", "content": "fa fa-twitter" }
+        ]
+    },
+    "main":{
+        "components":{
+            "destaques": {
+                
+                "header":{
+                    "icon":{
+                        "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                        "alt":"logo clube da bolsa"
+                    },
+                    "title":"Clube da bolsa",
+                    "gold":"Clube da bolsa",
+                    "text1":"afsadfsdafsdaf asdf asdf ",
+                    "text2":"afsadfsdafsdaf asdf asdf "
+                },
+                "itens":[
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    }
+                ]
+             },
+            "sobre": {
+                
+                "header":{
+                    "icon":{
+                        "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                        "alt":"logo clube da bolsa"
+                    },
+                    "title":"Clube da bolsa",
+                    "gold":"Clube da bolsa",
+                    "text1":"afsadfsdafsdaf asdf asdf ",
+                    "text2":"afsadfsdafsdaf asdf asdf "
+                },
+                "itens":[
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    }
+                ]
+             },
+            "comoFunciona": {
+                
+                "header":{
+                    "icon":{
+                        "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                        "alt":"logo clube da bolsa"
+                    },
+                    "title":"Clube da bolsa",
+                    "gold":"Clube da bolsa",
+                    "text1":"afsadfsdafsdaf asdf asdf ",
+                    "text2":"afsadfsdafsdaf asdf asdf "
+                },
+                "itens":[
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    }
+                ]
+             },
+            "ultimosSorteios": {
+                
+                "header":{
+                    "icon":{
+                        "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                        "alt":"logo clube da bolsa"
+                    },
+                    "title":"Clube da bolsa",
+                    "gold":"Clube da bolsa",
+                    "text1":"afsadfsdafsdaf asdf asdf ",
+                    "text2":"afsadfsdafsdaf asdf asdf "
+                },
+                "itens":[
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    }
+                ]
+             },
+            "inscreva": {
+                
+                "header":{
+                    "icon":{
+                        "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                        "alt":"logo clube da bolsa"
+                    },
+                    "title":"Clube da bolsa",
+                    "gold":"Clube da bolsa",
+                    "text1":"afsadfsdafsdaf asdf asdf ",
+                    "text2":"afsadfsdafsdaf asdf asdf "
+                },
+                "itens":[
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    }
+                ]
+             },
+            "galeria": {
+                
+                "header":{
+                    "icon":{
+                        "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                        "alt":"logo clube da bolsa"
+                    },
+                    "title":"Clube da bolsa",
+                    "gold":"Clube da bolsa",
+                    "text1":"afsadfsdafsdaf asdf asdf ",
+                    "text2":"afsadfsdafsdaf asdf asdf "
+                },
+                "itens":[
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    },
+                    { 
+                        "text": "https://google.com.br", 
+                        "image":{
+                            "src": "logo-cb-w-.png,logo-cb-w-.png 320w,logo-cb-w-.png 480w,logo-cb-w-.png 800w,logo-cb-w-.png 1200w",
+                            "alt":"logo clube da bolsa"
+                        }
+                    }
+                ]
+             }
+
+
+
+    }
+}
+}

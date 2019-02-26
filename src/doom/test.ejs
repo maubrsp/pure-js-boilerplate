@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <% var test =	require("inline-html-withimg-loader!./templates/header")  %>
+
+  <%= test(htmlWebpackPlugin.options.teste) %>
+      
+<body>
+    <div id="root">
+        
+        <div class="content">Index</div>
+
+        <%= htmlWebpackPlugin.options.chunks %>
+        <%= htmlWebpackPlugin.options.teste.title %>
+    </div>
+</body>
+
+</html>
